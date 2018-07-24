@@ -1,0 +1,2 @@
+2018-07-24 15:17:49.771 WARN (logger_test.go:logger.TestFileLogger:9) test warn log.
+2018-07-24 15:17:49.771 FATAL (logger_test.go:logger.TestFileLogger:10) test fatal log.
