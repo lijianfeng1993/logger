@@ -1,1 +1,4 @@
 2018-07-24 15:17:49.738 DEBUG (logger_test.go:logger.TestFileLogger:8) user id is come from china.
+2018-07-24 20:20:00.635 DEBUG (logger_test.go:logger.TestFileLogger:8) user id is come from china.
+2018-07-24 20:20:20.723 DEBUG (logger_test.go:logger.TestFileLogger:8) user id is come from china.
+2018-07-24 23:28:10.943 DEBUG (logger_test.go:logger.TestFileLogger:8) user id is come from china.

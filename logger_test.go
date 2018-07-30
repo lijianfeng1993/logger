@@ -11,7 +11,7 @@ func TestFileLogger(t *testing.T) {
 	logger.Close()
 }
 
-/*
+
 func TestConsoleLogger(t *testing.T) {
 	logger := NewConsoleLogger(LogLevelDebug)
 	logger.Debug("this a debug info.")
@@ -19,5 +19,5 @@ func TestConsoleLogger(t *testing.T) {
 	logger.Fatal("this is a fatal info.")
 	logger.Error("this is a error info")
 }
-*/
+
 

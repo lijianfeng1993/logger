@@ -9,7 +9,7 @@ import (
 )
 
 func GetLineInfo() (fileName string, funcName string, lineNo int) {
-	pc, file, line, ok := runtime.Caller(3) //0表示该函数，1表示调用该函数的地方，2表示再上一层，堆栈
+	pc, file, line, ok := runtime.Caller(4) //0表示该函数，1表示调用该函数的地方，2表示再上一层，堆栈
 	if ok {
 		fileName = file
 		funcName = runtime.FuncForPC(pc).Name()
@@ -31,3 +31,4 @@ func writeLog(file *os.File, level int, format string, args ...interface{}){
 	msg := fmt.Sprintf(format, args...)
 	fmt.Fprintf(file, "%s %s (%s:%s:%d) %s\n", nowStr, levelStr, fileName, funcName, lineNo, msg)
 }
+
